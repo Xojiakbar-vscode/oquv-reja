@@ -25,7 +25,7 @@ export const MainLayout = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
           <div className="flex items-center gap-2 text-primary font-bold text-xl justify-center md:justify-start">
             <BookOpen />
-            <span>EduPlatform</span>
+            <span>O'quv reja</span>
           </div>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Barcha huquqlar himoyalangan.

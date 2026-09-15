@@ -34,7 +34,7 @@ export const Navbar = () => {
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2 text-primary font-bold text-xl">
               <BookOpen />
-              <span>EduPlatform</span>
+              <span>O'quv reja</span>
             </Link>
             
             <nav className="hidden lg:flex gap-6 text-sm font-medium">

@@ -1,0 +1,2463 @@
+Frontend Development — 2 oylik o‘quv reja
+Davomiyligi: 8 haftaJami: 24 ta darsHaftasiga: 3 ta darsYo‘nalish: HTML → CSS → Tailwind CSS → Bootstrap → Git/GitHub → Amaliy loyihalar
+1–3-HAFTA — HTML
+1-dars — HTMLga kirish va Web asoslari
+Frontend nima?
+Web qanday ishlaydi?
+Browser va server tushunchasi
+HTML, CSS, JavaScript vazifalari
+HTML nima?
+HTML fayl yaratish
+<!DOCTYPE html>
+html, head, body
+VS Code bilan ishlash
+Birinchi HTML sahifa
+Amaliyot:Oddiy "My First Website" sahifasini yaratish.
+2-dars — HTML asoslari
+HTML element va tag tushunchasi
+Opening / closing tag
+Attribute tushunchasi
+h1–h6
+p
+br
+hr
+strong, b
+em, i
+mark
+small
+del, ins
+sub, sup
+Amaliyot:"Men haqimda" sahifasini yaratish.
+3-dars — Linklar va ro‘yxatlar
+<a> tag
+Absolute va relative URL
+target
+mailto
+tel
+<ul>
+<ol>
+<li>
+Nested lists
+Amaliyot:Shaxsiy portfolio uchun navigatsiya va menu yaratish.
+4-dars — Media elementlar
+<img>
+src
+alt
+width, height
+Rasm formatlari
+<audio>
+<video>
+controls
+autoplay
+loop
+muted
+<iframe> bilan tanishish
+Amaliyot:Rasm, video va audio ishlatilgan media page.
+5-dars — HTML Tables
+<table>
+<tr>
+<th>
+<td>
+caption
+thead
+tbody
+tfoot
+colspan
+rowspan
+Amaliyot:Studentlar jadvali / dars jadvali / mahsulotlar jadvali.
+6-dars — Form elementlari
+<form>
+<label>
+<input>
+text
+email
+password
+number
+date
+file
+radio
+checkbox
+select
+option
+textarea
+button
+Amaliyot:Registration form yaratish.
+7-dars — Semantic HTML
+Semantic HTML nima?
+header
+nav
+main
+section
+article
+aside
+footer
+figure
+figcaption
+Semantic va non-semantic elementlar farqi
+Accessibility asoslari
+HTML strukturani to‘g‘ri qurish
+Amaliyot:Blog/News sahifasining semantic strukturasini yaratish.
+8-dars — HTML + Inline Style
+style attribute
+Inline CSS bilan tanishish
+HTML va CSS munosabati
+Ranglar
+color
+background-color
+font-size
+text-align
+Nima uchun inline style'dan katta loyihalarda foydalanmaslik kerak?
+Amaliyot:Oddiy product card yaratish.
+9-dars — HTML amaliyot
+HTML bo‘yicha mini loyiha
+Noldan quyidagilarni o‘z ichiga olgan sahifa:
+Header
+Navigation
+Hero section
+About
+Services
+Image
+Video
+Table
+Form
+Footer
+Semantic HTML
+Natija:Talaba CSSsiz, faqat HTML yordamida to‘liq web page strukturasi yaratadi.
+4–6-HAFTA — CSS
+10-dars — CSSga kirish
+CSS nima?
+CSS sintaksisi
+Inline CSS
+Internal CSS
+External CSS
+CSS fayl ulash
+Selectors
+Element selector
+Class selector
+ID selector
+Group selector
+Comment
+Amaliyot:9-darsdagi HTML sahifani CSS bilan bezash.
+11-dars — CSS Text va Font
+color
+font-family
+font-size
+font-weight
+font-style
+text-align
+text-decoration
+text-transform
+line-height
+Google Fonts
+Fontlar bilan ishlash
+Amaliyot:Typography-focused landing section.
+12-dars — CSS Box Model
+Box Model
+width
+height
+padding
+margin
+border
+border-radius
+box-sizing
+outline
+overflow
+Amaliyot:Product cards yaratish.
+13-dars — CSS Background va Position
+background-color
+background-image
+background-size
+background-position
+background-repeat
+background
+opacity
+position
+static
+relative
+absolute
+fixed
+sticky
+z-index
+Amaliyot:Hero section va floating elements.
+14-dars — Display va Flexbox
+display
+block
+inline
+inline-block
+display: flex
+flex-direction
+justify-content
+align-items
+gap
+flex-wrap
+flex
+order
+Amaliyot:Navbar + cards layout.
+15-dars — CSS Grid
+CSS Grid nima?
+display: grid
+grid-template-columns
+grid-template-rows
+gap
+grid-column
+grid-row
+repeat()
+fr
+Grid va Flexbox farqi
+Qachon qaysi biridan foydalanish?
+Amaliyot:Portfolio/gallery layout.
+16-dars — Responsive Design
+Responsive web design
+Mobile-first
+Desktop-first
+Media queries
+@media
+Breakpoints
+Responsive typography
+Responsive images
+Flex/Grid responsive qilish
+Amaliyot:Desktop page'ni Mobile + Tablet + Desktop formatga moslashtirish.
+17-dars — CSS Advanced + Animation
+:hover
+:focus
+:active
+Pseudo-elements
+::before
+::after
+transition
+transform
+scale
+translate
+rotate
+box-shadow
+@keyframes
+animation
+Amaliyot:Animated buttons, cards va navigation.
+18-dars — HTML + CSS Landing Page
+Katta amaliy loyiha
+Noldan professional landing page:
+Navbar
+Hero
+About
+Features
+Services
+Statistics
+Testimonials
+CTA
+Footer
+Responsive design
+Hover effects
+Animation
+Natija:Talaba HTML va CSS yordamida real landing page yaratadi.
+7–8-HAFTA — Tailwind CSS, Bootstrap, Git/GitHub va loyihalar
+Bu qismni faqat nazariya emas, 80% amaliyot tarzida olib borishni tavsiya qilaman.
+19-dars — Tailwind CSSga kirish
+Tailwind CSS nima?
+Utility-first CSS
+Tailwind o‘rnatish / CDN
+Container
+Spacing
+Colors
+Typography
+Width / Height
+Border
+Border radius
+Shadow
+Amaliyot:Oldingi CSS card'larni Tailwind bilan qayta yaratish.
+20-dars — Tailwind CSS Layout
+Flex
+Grid
+Gap
+Responsive classes
+Breakpoints
+Hover
+Focus
+Responsive navbar
+Responsive cards
+Reusable UI patternlar
+Amaliyot:Tailwind bilan responsive landing page.
+21-dars — Tailwind CSS loyiha
+Mini project
+Masalan:
+SaaS / Startup Landing Page
+Navbar
+Hero
+Features
+Pricing
+Testimonials
+CTA
+Footer
+Mobile responsive
+Maqsad:Talaba oddiy CSS yozmasdan, Tailwind utility classlari bilan real loyiha yig‘adi.
+22-dars — Bootstrap
+Bootstrap nima?
+Bootstrap va Tailwind farqi
+Grid system
+Container
+Row / Column
+Breakpoints
+Buttons
+Cards
+Navbar
+Forms
+Utilities
+Bootstrap components
+Amaliyot:Bootstrap yordamida Admin Dashboard yoki Product Page.
+23-dars — Git va GitHub
+Bu darsni alohida berish juda muhim, chunki frontend kursi Git/GitHubsiz to‘liq bo‘lmaydi.
+Git nima?
+GitHub nima?
+Git o‘rnatish
+git init
+git status
+git add
+git commit
+git log
+.gitignore
+Repository yaratish
+git push
+git pull
+git clone
+Branch tushunchasi
+GitHub repository bilan ishlash
+README yozish
+Projectni GitHubga joylash
+Amaliyot:Oldingi loyihani GitHub repositoryga joylash.
+24-dars — Final Project / Portfolio
+Yakuniy katta amaliyot
+Talaba o‘zi mustaqil ravishda bitta real loyiha yaratadi.
+Variantlar:
+Personal Portfolio
+E-commerce Landing Page
+Restaurant Website
+Education Platform
+SaaS Landing Page
+Agency Website
+Travel Website
+Talablar:
+Semantic HTML
+CSS
+Flexbox
+Grid
+Responsive design
+Tailwind yoki Bootstrap
+Git/GitHub
+Mobile + Desktop versiya
+Clean code
+GitHub repository
+Final natija:GitHub'da tayyor loyiha + portfolio uchun ishlatish mumkin bo‘lgan real frontend project.
+Umumiy taqsimot
+Hafta
+Darslar
+Mavzu
+1-hafta
+1–3
+HTML Fundamentals
+2-hafta
+4–6
+HTML Media, Table, Forms
+3-hafta
+7–9
+Semantic HTML + HTML Project
+4-hafta
+10–12
+CSS Fundamentals
+5-hafta
+13–15
+Position + Flexbox + Grid
+6-hafta
+16–18
+Responsive + Animation + Landing Page
+7-hafta
+19–21
+Tailwind CSS + Project
+8-hafta
+22–24
+Bootstrap + Git/GitHub + Final Project
+Kurs oxirida talaba nimalarni biladi?
+HTML→ HTML structure→ Tags & attributes→ Forms→ Tables→ Media→ Semantic HTML
+CSS→ Selectors→ Box Model→ Typography→ Position→ Flexbox→ Grid→ Responsive Design→ Animation
+Frameworklar→ Tailwind CSS→ Bootstrap
+Tools→ VS Code→ Git→ GitHub
+Portfolio→ 1 ta HTML project→ 1 ta HTML + CSS landing page→ 1 ta Tailwind project→ 1 ta Bootstrap project→ 1 ta final project
+Shu struktura bo‘yicha 24 darsni "Dars maqsadi → Nazariya → Live coding → Amaliy topshiriq → Uyga vazifa → Natija" formatida to‘liq metodik o‘quv dasturga ham aylantirish mumkin.
+Albatta. HTML + CSS'dan keyin JavaScriptni 2 oy / 24 ta dars / haftasiga 3 dars qilib tuzishda asosiy maqsad shunchaki sintaksisni o‘rgatish emas, balki talabada masala yechish, algoritmik fikrlash va real frontend interaktivligini shakllantirish bo‘lishi kerak.
+Shuning uchun rejaning taxminan 40% — masala va algoritmlar, 60% — JavaScript + amaliy loyihalar bo‘ladi.
+JavaScript — 2 oylik / 24 darslik o‘quv reja
+Davomiyligi: 8 haftaJami: 24 darsHaftasiga: 3 dars
+Kurs 4 ta asosiy bosqichdan iborat:
+1-bosqich: JavaScript Fundamentals — 1–62-bosqich: Functions + Arrays + Objects — 7–123-bosqich: DOM + Browser — 13–184-bosqich: Advanced JS + Projects — 19–24
+1-HAFTA — JavaScriptga kirish
+1-dars — JavaScriptga kirish
+JavaScript nima?
+JS frontendda nima uchun kerak?
+Browser va JavaScript
+<script>
+Console
+console.log()
+Comment
+JavaScript faylini HTMLga ulash
+Statement
+Case sensitivity
+Variables
+let
+const
+var haqida qisqacha
+Variable naming
+Assignment
+Masalalar
+Ism va yoshni chiqarish
+Ikki sonning yig‘indisi
+To‘rtburchak yuzi
+Doira yuzi
+Sonning kvadrati
+Celsius → Fahrenheit
+Soatni minutga aylantirish
+Maqsad: JS sintaksisidan qo‘rqmaslik va oddiy masalani kodga aylantirish.
+2-dars — Data Types + Operators
+Data Types
+String
+Number
+Boolean
+Undefined
+Null
+BigInt haqida tushuncha
+typeof
+Operators
++
+-
+*
+/
+%
+**
+Comparison
+>
+<
+>=
+<=
+==
+===
+!=
+!==
+Logical operators
+&&
+||
+!
+Masalalar
+Juft/toq son
+Son musbat/manfiy
+Ikki sondan kattasini topish
+Uchta sondan kattasini topish
+Son 3 ga bo‘linadimi?
+Son 5 va 3 ga bo‘linadimi?
+Bahoni aniqlash
+Yoshga qarab kategoriya aniqlash
+3-dars — Conditional Statements
+if
+else
+else if
+Nested conditions
+Ternary operator
+switch
+Masala yechish texnikasi
+Har bir masalani:
+Input → Process → Output
+ko‘rinishida tahlil qilish.
+Masalan:
+Son berilgan. Agar son juft bo‘lsa Even, aks holda Odd chiqarish.
+Masalalar
+Calculator
+Login/password tekshirish
+Uchta sonning maximumi
+Uchta sonning minimumi
+Leap year
+Hafta kuni
+Oyga qarab fasl
+Student grade calculator
+Discount calculator
+Shipping cost calculator
+4-dars — Loops
+for
+while
+do while
+Loop control
+break
+continue
+Masalalar
+Boshlang‘ich:
+1 dan 100 gacha chiqarish
+100 dan 1 gacha chiqarish
+Juft sonlarni chiqarish
+Toq sonlarni chiqarish
+1–100 yig‘indisi
+1–100 orasidagi 5 ga bo‘linadigan sonlar
+O‘rta:
+Sonning bo‘luvchilarini topish
+Faktorial
+Sonning raqamlarini sanash
+Son raqamlari yig‘indisi
+Sonni teskari qilish
+Qiyinroq:
+Prime number
+1–100 oralig‘idagi prime sonlar
+Fibonacci
+5-dars — Nested Loops + Algoritmik masalalar
+Bu darsni to‘liq masala ishlash darsi qilishni tavsiya qilaman.
+Nested loop
+for ichida for
+Pattern yaratish
+Masalalar
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+Qo‘shimcha:
+Kvadrat pattern
+Uchburchak
+Teskari uchburchak
+Multiplication table
+1–10 ko‘paytirish jadvali
+Algoritmik masalalar
+Prime
+Perfect number
+Armstrong number
+Palindrome number
+Digit sum
+Digit count
+Reverse number
+Maqsad: Talaba masalani ko‘rib, "buni qanday kodga aylantiraman?" deb fikrlay boshlashi.
+6-dars — Fundamentals Practice
+100% amaliy dars.
+O‘tilgan mavzular:
+Variables
+Types
+Operators
+Conditions
+Loops
+Mini Challenge
+20–30 ta masala:
+Easy → Medium → Hard
+Masalan:
+Even/Odd
+Maximum
+Minimum
+Factorial
+Prime
+Palindrome
+Fibonacci
+Digit sum
+Reverse number
+Multiplication table
+Mini Project
+Number Guessing Game
+Kompyuter random son o‘ylaydi, foydalanuvchi topishga harakat qiladi.
+2-HAFTA — Functions
+7-dars — Functions
+Function nima?
+Function declaration
+Function call
+Parameters
+Arguments
+return
+Local/global scope
+Masalan:
+function add(a, b) {
+    return a + b;
+}
+Masalalar
+add()
+subtract()
+multiply()
+divide()
+isEven()
+isPrime()
+factorial()
+max()
+min()
+reverseNumber()
+8-dars — Function + Masala yechish
+Function bilan algoritm qurish
+Masalani kichik qismlarga bo‘lish:
+Input
+ ↓
+Function
+ ↓
+Logic
+ ↓
+Return
+ ↓
+Output
+Masalalar
+Calculator functions
+Grade calculator
+Discount calculator
+Age calculator
+Currency converter
+Temperature converter
+Password validator
+Triangle validator
+Challenge
+15 ta function-based masala
+9-dars — Arrays
+Array nima?
+Array yaratish
+Index
+length
+Element olish/o‘zgartirish
+push
+pop
+shift
+unshift
+slice
+splice
+Masalalar
+Arraydagi eng katta son
+Eng kichik son
+Yig‘indi
+O‘rtacha qiymat
+Juft sonlar
+Toq sonlar
+Arrayni reverse qilish
+Element qidirish
+10-dars — Array Methods
+forEach
+map
+filter
+find
+findIndex
+includes
+indexOf
+sort
+reduce
+Bu dars juda muhim.
+Masalalar
+Masalan:
+const numbers = [1, 2, 3, 4, 5];
+Faqat juft sonlarni olish
+Har bir sonni 2 ga ko‘paytirish
+Maximum topish
+Sum
+Average
+10 dan katta sonlarni olish
+Stringlarni uzunligi bo‘yicha saralash
+11-dars — Objects
+Object nima?
+Property
+Value
+Method
+Dot notation
+Bracket notation
+Object qo‘shish/o‘zgartirish/o‘chirish
+Nested objects
+Object destructuring
+Masalalar
+Student:
+{
+    name: "Ali",
+    age: 20,
+    grade: 85
+}
+Student ma'lumotini chiqarish
+Grade hisoblash
+Eng yuqori ballni topish
+Eng yosh studentni topish
+Studentlarni filter qilish
+12-dars — Arrays + Objects Practice
+Real-world data bilan ishlash
+const students = [
+    { name: "Ali", age: 20, grade: 85 },
+    { name: "Vali", age: 19, grade: 92 },
+    { name: "Hasan", age: 21, grade: 74 }
+];
+Masalalar
+Eng yuqori grade
+Eng past grade
+Average grade
+Grade > 80
+Age > 20
+Student qidirish
+Studentlarni sort qilish
+Mini Project
+Student Management System
+Console orqali:
+Student qo‘shish
+Student qidirish
+Student o‘chirish
+Studentlarni chiqarish
+Average grade
+3-HAFTA — DOM
+13-dars — DOMga kirish
+DOM nima?
+HTML + JS
+document
+getElementById
+querySelector
+querySelectorAll
+Element bilan ishlash
+textContent
+innerHTML
+value
+Amaliyot
+Button bosilganda:
+Text o‘zgarishi
+Rasm o‘zgarishi
+Rang o‘zgarishi
+Counter
+14-dars — Events
+click
+input
+change
+submit
+keydown
+mouseover
+addEventListener
+Amaliyot
+Counter
+Like button
+Show/Hide password
+Dark mode
+Character counter
+Input live preview
+15-dars — Forms + Validation
+Form bilan ishlash
+preventDefault()
+Input value olish
+Validation
+Error message
+Success message
+Mini Project
+Registration Form
+Validation:
+Name
+Email
+Password
+Confirm password
+Age
+16-dars — DOM orqali Element yaratish
+createElement
+append
+appendChild
+remove
+classList
+add
+remove
+toggle
+setAttribute
+getAttribute
+Amaliyot
+JavaScript yordamida:
+Card yaratish
+List yaratish
+Product yaratish
+Delete button
+Edit button
+17-dars — DOM + Array + Object
+Bu juda muhim integratsion dars.
+Data:
+const products = [...]
+JavaScript orqali HTMLga chiqarish.
+Amaliyot
+Product List
+Productlarni chiqarish
+Search
+Filter
+Sort
+Delete
+Category filter
+18-dars — DOM Project
+Mini Project: Todo App
+Funksiyalar:
+Todo qo‘shish
+Todo o‘chirish
+Todo bajarildi qilish
+Edit
+Filter:
+All
+Active
+Completed
+Counter
+Bu darsda:
+Array + Object + Function + DOM + Events
+birgalikda ishlatiladi.
+4-HAFTA — Modern JavaScript
+19-dars — Modern JS Syntax
+let
+const
+Template literals
+Destructuring
+Spread operator
+Rest operator
+Default parameters
+Optional chaining
+Masalalar
+Object va arraylar bilan ishlashga asoslangan 15–20 ta masala.
+20-dars — JSON + LocalStorage
+JSON
+JSON nima?
+JSON.stringify()
+JSON.parse()
+LocalStorage
+setItem
+getItem
+removeItem
+clear
+Amaliyot
+Todo App'ni LocalStorage bilan saqlash.
+Browser refresh qilinganda ham ma'lumotlar yo‘qolmaydi.
+21-dars — Async JavaScript
+Synchronous vs Asynchronous
+Callback tushunchasi
+setTimeout
+setInterval
+Promise
+async
+await
+try/catch
+API bilan tanishish
+HTTP haqida qisqacha
+GET
+POST tushunchasi
+JSON response
+22-dars — Fetch API + Real API
+fetch()
+API'dan data olish
+response.json()
+Loading
+Error handling
+Dynamic rendering
+Project
+Weather App yoki Movie Search App
+Masalan:
+Search
+ ↓
+API
+ ↓
+Fetch
+ ↓
+JSON
+ ↓
+JavaScript
+ ↓
+DOM
+Talaba real API bilan ishlaydi.
+23-dars — JavaScript Final Practice
+Bu darsni masalalar + debuggingga bag‘ishlashni tavsiya qilaman.
+3 daraja
+Easy
+String masalalar
+Number masalalar
+Array masalalar
+Medium
+Array + Object
+Function + Array
+Search/filter/sort
+Hard
+Complex data manipulation
+Nested arrays/objects
+Algorithmic challenges
+Debugging
+Talabaga ataylab xato kod beriladi:
+const numbers = [1, 2, 3, 4];
+const result = numbers.map(number => {
+    number * 2;
+});
+Xatoni topish va tuzatish.
+Maqsad
+Talaba:
+"Kod yozish"
+emas, balki
+"Koddagi muammoni topish va yechish"
+ko‘nikmasiga ega bo‘lishi.
+24-dars — JavaScript Final Project
+Talaba mustaqil loyiha qiladi.
+Variantlar
+1. E-commerce
+Product list
+Search
+Category filter
+Sort
+Cart
+Quantity
+Total price
+LocalStorage
+2. Todo / Task Manager
+Add
+Edit
+Delete
+Complete
+Filter
+LocalStorage
+3. Weather App
+Search city
+API
+Temperature
+Weather
+Loading
+Error
+4. Movie App
+Search
+API
+Movie cards
+Details
+Favorites
+LocalStorage
+5. Quiz App
+Questions
+Answers
+Score
+Timer
+Result
+24 darsning umumiy jadvali
+Hafta
+Dars
+Mavzu
+1
+1
+JS Introduction + Variables
+2
+Data Types + Operators
+3
+Conditions
+2
+4
+Loops
+5
+Nested Loops + Algorithms
+6
+Fundamentals Practice + Game
+3
+7
+Functions
+8
+Functions + Problem Solving
+9
+Arrays
+4
+10
+Array Methods
+11
+Objects
+12
+Arrays + Objects + Mini Project
+5
+13
+DOM Fundamentals
+14
+Events
+15
+Forms + Validation
+6
+16
+Dynamic DOM
+17
+DOM + Arrays + Objects
+18
+Todo App
+7
+19
+Modern JavaScript
+20
+JSON + LocalStorage
+21
+Async JS + Promises
+8
+22
+Fetch API + Real API
+23
+Algorithms + Debugging
+24
+Final Project
+Masala ishlash tizimi
+Men kursda masalalarni shunchaki "uyga vazifa" sifatida bermas edim. Har bir darsda masala yechish metodikasini ham o‘rgatish kerak.
+Talaba har bir masalani quyidagi 5 bosqichdan o‘tkazadi:
+1. Masalani tushunish
+Nima berilgan?
+2. Input / Output
+Nimani qabul qilaman?Nimani chiqaraman?
+3. Algorithm
+Masalani oddiy tilda qadamlar bilan yozish.
+4. Code
+Algoritmni JavaScriptga aylantirish.
+5. Test
+Input → Expected output → Actual output
+va edge case'larni tekshirish.
+Masalalar qiyinligi ham bosqichma-bosqich oshadi
+Men quyidagi progressionni tavsiya qilaman:
+1–6-dars:🟢 Easy → Easy+
+7–12-dars:🟢 Easy → 🟡 Medium
+13–18-dars:🟡 Medium → DOM challenges
+19–23-dars:🟡 Medium → 🔴 Hard
+24-dars:🚀 Real project
+Shunda kurs oxirida talaba faqat:
+let, if, for, function...
+larni biladigan odam emas, masalani ko‘rib algoritm tuza oladigan va JavaScript yordamida real frontend application qila oladigan junior frontend developer darajasiga yaqinlashadi.
+Albatta. HTML → CSS → Tailwind/Bootstrap → Git/GitHub → JavaScript ketma-ketligidan keyin React uchun 2 oy (24 dars) va Vue.js uchun 1 oy (12 dars) qilish juda yaxshi struktura.
+Bu bosqichda men faqat framework sintaksisini emas, component thinking, state management, API bilan ishlash, routing, formalar, reusable componentlar va real loyihalarni markazga qo‘ygan bo‘lardim.
+⚛️ REACT — 2 OY / 24 DARS
+Davomiyligi: 8 haftaHaftasiga: 3 darsJami: 24 dars
+React kursining bosqichlari
+1–3-hafta: React Fundamentals
+4–5-hafta: State, Forms, API
+6-hafta: Routing + Advanced React
+7–8-hafta: Real project + architecture
+1-HAFTA — Reactga kirish
+1-dars — React va modern frontend
+React nima?
+React nima uchun kerak?
+SPA tushunchasi
+MPA vs SPA
+Reactning afzalliklari
+React ecosystem
+Node.js va npm
+Vite
+Project structure
+React project yaratish
+Development server
+Browser DevTools
+Amaliyot:
+Oddiy React project yaratish va ishga tushirish.
+2-dars — JSX
+JSX nima?
+JSX sintaksisi
+HTML vs JSX
+className
+JSX expression
+{ }
+JavaScript + JSX
+return
+Fragment
+JSX rules
+Masalalar
+Dynamic greeting
+Dynamic age
+Calculator
+Product information
+User profile
+Amaliyot:
+Personal Profile page.
+3-dars — Components
+Component nima?
+Functional component
+Component yaratish
+Component import/export
+Component composition
+Reusable component
+Masalan:
+App
+ ├── Header
+ ├── Hero
+ ├── About
+ ├── Services
+ └── Footer
+Amaliyot:
+Landing page'ni componentlarga bo‘lish.
+2-HAFTA — Props va Rendering
+4-dars — Props
+Props nima?
+Props yuborish
+Props qabul qilish
+Props destructuring
+Children
+Default values
+Amaliyot:
+Reusable:
+Button
+Card
+UserCard
+ProductCard
+5-dars — Conditional Rendering
+if
+ternary
+&&
+||
+Conditional component
+Loading state
+Empty state
+Error state
+Amaliyot:
+User status:
+Online
+Offline
+Loading
+Error
+6-dars — Lists + Keys
+map()
+List rendering
+key
+Array of objects
+Nested data
+Masalalar:
+Product list
+Student list
+Category list
+User list
+Amaliyot:
+Product Catalog.
+3-HAFTA — State
+7-dars — useState
+State nima?
+useState
+State yaratish
+State update
+Previous state
+Multiple state
+Amaliyot:
+Counter
+Like button
+Toggle
+Show/Hide
+Quantity selector
+8-dars — State bilan ishlash
+State object
+State array
+Immutable update
+Spread operator
+Array state
+Object state
+Amaliyot:
+Shopping Cart.
+9-dars — Events
+onClick
+onChange
+onSubmit
+Event object
+Event handler
+Passing arguments
+Amaliyot:
+Interactive Todo App.
+4-HAFTA — Forms + Hooks
+10-dars — Forms
+Controlled components
+Input state
+Textarea
+Select
+Checkbox
+Radio
+Form submit
+Amaliyot:
+Registration Form.
+11-dars — Form validation
+Required fields
+Email validation
+Password validation
+Error messages
+Success messages
+Dynamic validation
+Amaliyot:
+Professional Login/Register UI.
+12-dars — useEffect
+useEffect
+Side effects
+Dependency array
+Component lifecycle tushunchasi
+Cleanup
+setTimeout
+setInterval
+Amaliyot:
+Timer
+Digital clock
+Auto counter
+Page title update
+5-HAFTA — API
+13-dars — Fetch API Reactda
+fetch
+GET request
+async/await
+try/catch
+Loading
+Error
+Data rendering
+Amaliyot:
+Users API.
+14-dars — API + Search + Filter
+Search
+Filter
+Sort
+API data
+Dynamic UI
+Amaliyot:
+Product Search App.
+15-dars — POST / PUT / DELETE
+HTTP methods
+POST
+PUT/PATCH
+DELETE
+Request body
+Headers
+Amaliyot:
+CRUD application.
+Masalan:
+Student Management
+Create
+Read
+Update
+Delete
+6-HAFTA — Routing + Advanced Hooks
+16-dars — React Router
+React Router
+Routes
+Route
+Link
+NavLink
+BrowserRouter
+Nested routes
+Amaliyot:
+Multi-page SPA:
+/
+ /about
+ /products
+ /contact
+17-dars — Dynamic Routes
+URL parameters
+useParams
+Query parameters
+useSearchParams
+Navigation
+useNavigate
+Amaliyot:
+Product Details:
+/products
+/products/15
+/products/27
+18-dars — Advanced Hooks
+useRef
+useMemo
+useCallback
+Qachon ishlatish kerak?
+Qachon ishlatmaslik kerak?
+Amaliyot:
+Performance optimization examples.
+7-HAFTA — Global State + Architecture
+19-dars — Context API
+Global state
+Context
+Provider
+Consumer
+useContext
+Amaliyot:
+Theme:
+Light
+Dark
+20-dars — State Management
+Local state vs global state
+Context bilan state management
+Redux/Zustand nima?
+Qachon global state kerak?
+Bu darsda bittasini amaliy o‘rgatish mumkin.
+Tavsiya: Zustand yoki Redux Toolkit.
+21-dars — React Project Architecture
+Folder structure
+Components
+Pages
+Hooks
+Services
+Utils
+Constants
+API layer
+Reusable components
+Masalan:
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── services/
+ ├── utils/
+ ├── assets/
+ └── App.jsx
+Amaliyot:
+Oldingi loyihani professional strukturaga o'tkazish.
+8-HAFTA — REAL PROJECT
+22-dars — React Final Project 1
+Loyihani boshlash:
+E-commerce / Admin Dashboard / CRM
+Masalan E-commerce:
+Navbar
+Product list
+Product card
+Search
+Filter
+Category
+Product detail
+Cart
+23-dars — React Final Project 2
+Qo‘shimcha:
+API
+Authentication UI
+Forms
+Validation
+Routing
+Global state
+LocalStorage
+Loading
+Error handling
+Responsive design
+24-dars — React Final Project 3
+Finalization
+Refactoring
+Bug fixing
+Responsive
+Component optimization
+Git/GitHub
+README
+Deploy
+Final natija:
+Talabaning GitHubida real React project bo‘ladi.
+⚛️ React — 24 darslik qisqa jadval
+Dars
+Mavzu
+1
+React + Vite + Setup
+2
+JSX
+3
+Components
+4
+Props
+5
+Conditional Rendering
+6
+Lists + Keys
+7
+useState
+8
+State + Arrays/Objects
+9
+Events
+10
+Forms
+11
+Form Validation
+12
+useEffect
+13
+Fetch API
+14
+Search + Filter
+15
+CRUD + API
+16
+React Router
+17
+Dynamic Routes
+18
+Advanced Hooks
+19
+Context API
+20
+State Management
+21
+Project Architecture
+22
+Final Project
+23
+Final Project
+24
+Final Project + Deploy
+🟢 VUE.JS — 1 OY / 12 DARS
+Reactdan keyin Vue'ni o‘rgatish ancha oson bo‘ladi. Chunki talaba allaqachon:
+Component
+Props
+State
+Events
+API
+Routing
+CRUD
+tushunchalarini biladi.
+Shuning uchun Vue kursida Reactni qaytadan o‘rgatish emas, React → Vue mapping orqali farqlarni ko‘rsatish kerak.
+Davomiyligi: 4 haftaJami: 12 dars
+1-HAFTA — Vue Fundamentals
+1-dars — Vue.jsga kirish
+Vue nima?
+Vue vs React
+Vue ecosystem
+Vite
+Vue project yaratish
+Project structure
+.vue file
+Single File Component
+<template>
+<script>
+<style>
+Amaliyot:
+Vue project + Personal Profile.
+2-dars — Template Syntax
+Interpolation
+{{ }}
+v-bind
+:
+v-if
+v-else
+v-show
+v-for
+:key
+Amaliyot:
+Product list.
+3-dars — Components + Props
+Component
+Import/export
+Props
+Props validation
+Component composition
+Slots
+Amaliyot:
+Reusable:
+Card
+Button
+Modal
+ProductCard
+2-HAFTA — Reactivity + Events
+4-dars — Reactivity
+ref
+reactive
+Reactive state
+State update
+Computed values
+Amaliyot:
+Counter + Shopping Cart.
+5-dars — Events
+@click
+@input
+@change
+@submit
+Event modifiers
+$event
+Amaliyot:
+Todo application.
+6-dars — Forms
+v-model
+Input
+Select
+Checkbox
+Radio
+Textarea
+Form submit
+Validation
+Amaliyot:
+Registration form.
+3-HAFTA — Composition API + API
+7-dars — Composition API
+setup
+<script setup>
+ref
+reactive
+computed
+watch
+onMounted
+Amaliyot:
+Dynamic dashboard.
+8-dars — API bilan ishlash
+Fetch
+Axios
+GET
+POST
+PUT
+DELETE
+Loading
+Error
+Amaliyot:
+CRUD App.
+9-dars — Search + Filter + Pagination
+Search
+Filter
+Sort
+Pagination
+Computed data
+Amaliyot:
+Product Management.
+4-HAFTA — Router + State + Final Project
+10-dars — Vue Router
+Vue Router
+Routes
+RouterLink
+RouterView
+Dynamic routes
+useRoute
+useRouter
+Amaliyot:
+Multi-page SPA.
+11-dars — Pinia + State Management
+Global state
+Pinia
+Store
+State
+Getters
+Actions
+Amaliyot:
+Shopping Cart / Auth Store.
+12-dars — Vue Final Project
+Real loyiha:
+Vue E-commerce
+Components
+Props
+Events
+State
+Pinia
+Router
+API
+Search
+Filter
+Cart
+Product details
+LocalStorage
+Responsive design
+GitHub
+Deploy
+🟢 Vue — 12 darslik jadval
+Dars
+Mavzu
+1
+Vue + Vite + SFC
+2
+Template Syntax
+3
+Components + Props + Slots
+4
+Reactivity + ref/reactive
+5
+Events
+6
+Forms + v-model
+7
+Composition API
+8
+API + CRUD
+9
+Search + Filter + Pagination
+10
+Vue Router
+11
+Pinia
+12
+Final Project
+🔥 Eng muhim qism: React va Vue'da masala ishlash
+Siz JavaScript kursida masala yechishga alohida urg‘u berganingiz juda to‘g‘ri. React/Vue'da esa masala biroz o‘zgaradi.
+Bu yerda faqat:
+"Fibonacci top"
+emas, balki UI masalalari berilishi kerak.
+React practice progression
+Beginner:
+Counter
+Toggle
+Show/Hide
+Like button
+Character counter
+Temperature converter
+Medium:
+Todo
+Search
+Filter
+Sort
+Shopping cart
+Form validation
+Advanced:
+CRUD
+Pagination
+API
+Authentication UI
+Protected routes
+Global state
+Optimistic UI
+🎯 3 oylik React + Vue natijasi
+Umuman kursni shunday ko‘rish mumkin:
+HTML
+  ↓
+CSS
+  ↓
+Tailwind / Bootstrap
+  ↓
+Git / GitHub
+  ↓
+JavaScript
+  ↓
+  ├── Algorithms
+  ├── DOM
+  ├── API
+  ├── Async JS
+  └── LocalStorage
+        ↓
+      React
+        ↓
+  Components
+  Props
+  State
+  Hooks
+  API
+  Router
+  Global State
+        ↓
+      Vue.js
+        ↓
+ Composition API
+ Router
+ Pinia
+ API
+Yakunda portfolio uchun:
+HTML/CSS
+Landing Page
+JavaScript2. Todo / Weather / Movie App
+React3. E-commerce yoki CRM
+Vue4. E-commerce / Dashboard
+Shu tarzda 4 ta yaxshi loyiha chiqadi va talaba "frameworkni ko‘rdim" darajasida emas, balki React va Vue'da mustaqil loyiha yig‘a oladigan darajada kursni tugatadi.
+Ha, bu ketma-ketlik yaxshi: avval MongoDB bilan backend fundamentals, keyin PostgreSQL + Sequelize ORM, oxirida esa Full Stack loyiha. Ayniqsa imtihonlarni ikki nuqtaga qo‘yish yaxshi — MongoDB'dan keyin faqat backend bilimini, PostgreSQL'dan keyin esa frontend + backend integratsiyasini tekshirish mumkin.
+Quyidagicha 3 oy / 12 hafta / 36 dars qilib tuzgan bo‘lardim.
+🟢 BACKEND DEVELOPMENT — 3 OY / 36 DARS
+Davomiyligi: 12 haftaJami: 36 darsHaftasiga: 3 dars
+Texnologiyalar
+Node.js
+Express.js
+MongoDB
+Mongoose
+REST API
+Postman
+JWT
+Authentication / Authorization
+bcrypt
+Middleware
+Validation
+Error Handling
+File Upload
+PostgreSQL
+Sequelize ORM
+Relations
+Transactions
+Security
+Git/GitHub
+Frontend + Backend integration
+Full Stack project
+1-BOSQICH — NODE.JS + EXPRESS
+1–3-HAFTA / 9 DARS
+Bu qismda database'ga juda chuqur kirmaymiz. Avval backendning o‘zini tushunib olish kerak.
+1-dars — Backend va Node.jsga kirish
+Nazariya
+Backend nima?
+Frontend vs Backend
+Client / Server
+Request / Response
+HTTP
+API nima?
+REST API
+Node.js nima?
+Node.js qanday ishlaydi?
+Node.js o‘rnatish
+npm
+package.json
+node_modules
+npm install
+Amaliyot
+Birinchi Node.js project
+console.log
+process
+__dirname
+__filename
+Mini task: Simple CLI application.
+2-dars — Node.js Core Modules
+fs
+path
+os
+http
+events
+url
+Amaliyot
+Node.js http module yordamida:
+GET /
+GET /users
+GET /products
+endpointlar yaratish.
+Masalalar
+File yaratish
+File o‘qish
+Filega ma'lumot yozish
+Folder yaratish
+JSON file bilan ishlash
+3-dars — Express.js
+Express nima?
+Express o‘rnatish
+Server yaratish
+app.listen()
+Route
+GET
+POST
+PUT
+PATCH
+DELETE
+Amaliyot
+GET    /users
+GET    /users/:id
+POST   /users
+PUT    /users/:id
+DELETE /users/:id
+Birinchi REST API.
+4-dars — Request / Response
+req
+res
+req.params
+req.query
+req.body
+HTTP status codes
+JSON response
+Headers
+Amaliyot
+Product API:
+/products
+/products/:id
+Status codes
+200
+201
+400
+401
+403
+404
+500
+5-dars — Express Middleware
+Middleware nima?
+Custom middleware
+next()
+Logger
+Request middleware
+Error middleware
+Amaliyot
+Request logger
+Authentication middleware mock
+Error middleware
+6-dars — Express Architecture
+Kod strukturasi:
+src/
+├── controllers/
+├── routes/
+├── middlewares/
+├── models/
+├── services/
+├── utils/
+├── config/
+└── app.js
+MVC
+Model
+View
+Controller
+Backendda Controller / Service / Route tushunchalari.
+Amaliyot
+Oldingi API'ni professional structure'ga o'tkazish.
+7-dars — Postman + REST API
+Postman
+Collection
+Environment
+Request
+Body
+Headers
+Params
+Query
+API test qilish
+Amaliyot
+Postman orqali CRUD API test qilish.
+8-dars — Validation + Error Handling
+Validation nima?
+Input validation
+Required
+Type validation
+Error response structure
+Custom errors
+Global error handler
+Amaliyot
+Register endpoint uchun validation.
+9-dars — Node + Express Mini Project
+Simple Product API
+Funksiyalar:
+Create product
+Get products
+Get single product
+Update product
+Delete product
+Search
+Filter
+Pagination
+Validation
+Error handling
+Natija: MongoDBsiz to‘liq REST API.
+2-BOSQICH — MONGODB + MONGOOSE
+4–6-HAFTA / 9 DARS
+10-dars — MongoDBga kirish
+Database nima?
+SQL vs NoSQL
+MongoDB nima?
+Database
+Collection
+Document
+Field
+BSON
+MongoDB Atlas
+Local MongoDB
+CRUD
+Insert
+Find
+Update
+Delete
+Amaliyot
+MongoDB Compass / Atlas bilan ishlash.
+11-dars — Mongoose
+Mongoose nima?
+Connection
+Schema
+Model
+Types
+Default
+Required
+Unique
+Validation
+Amaliyot
+User model:
+name
+email
+password
+age
+role
+12-dars — MongoDB CRUD
+Express + Mongoose:
+POST   /users
+GET    /users
+GET    /users/:id
+PUT    /users/:id
+DELETE /users/:id
+Amaliyot
+User Management API
+13-dars — MongoDB Query
+find
+findOne
+findById
+findByIdAndUpdate
+findByIdAndDelete
+$gt
+$gte
+$lt
+$lte
+$in
+$nin
+$regex
+Amaliyot
+Search + Filter + Sort + Pagination.
+14-dars — MongoDB Relations
+MongoDB'da relation:
+Embedded documents
+Referencing
+ObjectId
+ref
+populate
+Amaliyot
+User
+ ↓
+Posts
+Userning postlarini olish.
+15-dars — Authentication
+Authentication
+Authorization
+Register
+Login
+Password hashing
+bcrypt
+Salt
+Password comparison
+Amaliyot
+POST /auth/register
+POST /auth/login
+16-dars — JWT
+JWT nima?
+Token
+Access token
+JWT payload
+Secret key
+Expiration
+jsonwebtoken
+Auth middleware
+Amaliyot
+Protected route:
+GET /profile
+Faqat login qilgan user kira oladi.
+17-dars — Roles + Authorization
+Role
+Permissions
+User
+Admin
+Moderator
+Amaliyot
+USER
+ADMIN
+Admin:
+User delete
+Product create
+Product update
+Oddiy user esa faqat o‘ziga ruxsat berilgan endpointlardan foydalanadi.
+18-dars — MongoDB Backend Project
+Blog / E-commerce Backend
+Masalan Blog API:
+Auth
+Users
+Posts
+Comments
+Categories
+Funksiyalar:
+Register
+Login
+JWT
+Roles
+CRUD
+Search
+Filter
+Pagination
+Relations
+Validation
+Error handling
+📝 19-DARS — MONGODB BACKEND IMTIXONI
+Bu darsni faqat imtihon qilamiz.
+Frontend yo‘q.
+Talabaga vazifa:
+Blog API yaratish
+Majburiy:
+Node.js
+Express
+MongoDB
+Mongoose
+REST API
+CRUD
+JWT
+bcrypt
+Middleware
+Validation
+Authorization
+Postman
+Masalan:
+/auth/register
+/auth/login
+/users
+/posts
+/comments
+/categories
+Baholash
+Qism
+Ball
+Express
+10
+MongoDB
+15
+Mongoose
+10
+CRUD
+15
+JWT
+15
+bcrypt
+10
+Middleware
+10
+Validation
+5
+Authorization
+5
+Code structure
+5
+Jami
+100
+19-darsdan keyin talaba MongoDB backendni mustaqil qila olishi kerak.
+3-BOSQICH — ADVANCED BACKEND
+7–9-HAFTA / 9 DARS
+Imtihondan keyin PostgreSQLga o'tishdan oldin backendning professional qismlarini beramiz.
+20-dars — Advanced Authentication
+Access token
+Refresh token
+Token expiration
+Logout
+Token rotation tushunchasi
+Secure authentication architecture
+Amaliyot
+POST /auth/login
+POST /auth/refresh
+POST /auth/logout
+21-dars — File Upload
+multipart/form-data
+Multer
+File upload
+File validation
+File size
+Image upload
+Static files
+Amaliyot
+User profile:
+POST /users/avatar
+22-dars — Advanced Validation + Security
+Input sanitization
+CORS
+Helmet
+Rate limiting
+Password security
+Environment variables
+.env
+Secrets
+Amaliyot
+API security setup.
+23-dars — PostgreSQLga kirish
+Endi SQL'ga o'tamiz.
+SQL nima?
+PostgreSQL nima?
+Relational database
+Database
+Table
+Row
+Column
+Primary key
+Foreign key
+Constraints
+SQL
+SELECT
+INSERT
+UPDATE
+DELETE
+24-dars — PostgreSQL Query
+WHERE
+ORDER BY
+LIMIT
+OFFSET
+LIKE
+IN
+BETWEEN
+GROUP BY
+COUNT
+SUM
+AVG
+Amaliyot
+Real database query masalalari.
+25-dars — PostgreSQL Relations
+One-to-One
+One-to-Many
+Many-to-Many
+Primary Key
+Foreign Key
+JOIN
+SQL JOIN
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+Amaliyot
+Users
+Orders
+Products
+Categories
+orasidagi relationlar.
+4-BOSQICH — SEQUELIZE ORM
+9–10-HAFTA / 6 DARS
+26-dars — Sequelize ORM
+ORM nima?
+Sequelize nima?
+PostgreSQL + Sequelize
+Connection
+Model
+Data types
+Table creation
+Migration tushunchasi
+Amaliyot
+User model yaratish.
+27-dars — Sequelize CRUD
+create
+findAll
+findOne
+findByPk
+update
+destroy
+Amaliyot
+User CRUD API.
+28-dars — Sequelize Relations
+hasOne
+belongsTo
+hasMany
+belongsToMany
+Amaliyot
+User
+ ↓
+Orders
+ ↓
+Products
+29-dars — Sequelize Advanced Queries
+Where
+Operators
+Include
+Attributes
+Order
+Limit
+Offset
+Pagination
+Search
+Filter
+Amaliyot
+Advanced Product API.
+30-dars — Transactions + Database Design
+Transaction nima?
+Commit
+Rollback
+Database normalization
+Index
+Unique constraint
+Foreign key
+Cascade
+Amaliyot
+Order yaratish:
+Create Order
+ ↓
+Create Order Items
+ ↓
+Update Product Stock
+ ↓
+Commit
+Xatolik bo‘lsa:
+Rollback
+31-dars — Professional Backend Architecture
+Final backend architecture:
+src/
+├── config/
+├── controllers/
+├── services/
+├── routes/
+├── middlewares/
+├── models/
+├── validators/
+├── utils/
+├── database/
+└── app.js
+Qo‘shimcha
+Service layer
+Repository pattern tushunchasi
+DTO tushunchasi
+Error handling
+API response structure
+Amaliyot
+Backendni production-like structure'ga o'tkazish.
+5-BOSQICH — POSTGRESQL BACKEND PROJECT
+11-HAFTA / 3 DARS
+32-dars — PostgreSQL Backend Project 1
+E-commerce Backend
+Models:
+User
+Product
+Category
+Cart
+Order
+OrderItem
+Authentication
+Register
+Login
+JWT
+Refresh token
+Roles
+33-dars — PostgreSQL Backend Project 2
+Product
+CRUD
+Search
+Filter
+Sort
+Pagination
+Cart
+Add product
+Remove
+Quantity
+Total
+Order
+Create
+Get
+Update status
+Admin
+Product management
+Order management
+User management
+34-dars — Backend Finalization
+Validation
+Error handling
+Security
+CORS
+File upload
+Database relations
+Transactions
+API documentation
+Postman collection
+Git/GitHub
+.env
+Deployment
+📝 35-DARS — POSTGRESQL BACKEND IMTIXONI
+Bu ham faqat backend bo‘ladi.
+Frontend ishlatilmaydi.
+Imtihon vazifasi
+Talabaga masalan:
+Online Education Backend
+beriladi.
+Models:
+User
+Course
+Category
+Lesson
+Enrollment
+Talaba qilishi kerak:
+PostgreSQL
+Sequelize
+Relations
+CRUD
+JWT
+bcrypt
+Role
+Authorization
+Validation
+Search
+Filter
+Pagination
+Error handling
+API structure
+Baholash
+Qism
+Ball
+PostgreSQL
+10
+Sequelize
+15
+Relations
+15
+CRUD
+10
+Authentication
+15
+Authorization
+10
+Validation
+5
+Search/Filter
+5
+Pagination
+5
+Architecture
+5
+Security
+5
+Jami
+100
+🚀 6-BOSQICH — FULL STACK FINAL PROJECT
+12-HAFTA / 3 DARS
+Bu yerda oldingi HTML + CSS + JavaScript + React/Vue bilimlari backend bilan birlashtiriladi.
+36-dars — FULL STACK PROJECT
+Frontend
+React yoki Vue:
+Login
+Register
+Dashboard
+Products
+Product Detail
+Cart
+Orders
+Profile
+Admin Panel
+Backend
+Node.js + Express:
+Auth
+Users
+Products
+Categories
+Orders
+Cart
+Database
+PostgreSQL + Sequelize
+Authentication
+Frontend
+   ↓
+Login
+   ↓
+Backend
+   ↓
+JWT
+   ↓
+Frontend
+   ↓
+Protected Routes
+Yakuniy loyiha
+Masalan:
+🛒 Full Stack E-Commerce
+Frontend:
+React/Vue
+Tailwind CSS
+Router
+Forms
+API
+State management
+Backend:
+Node.js
+Express.js
+PostgreSQL
+Sequelize
+JWT
+bcrypt
+CRUD
+Validation
+Authorization
+Database:
+User
+ │
+ ├── Cart
+ │
+ └── Orders
+       │
+       └── OrderItems
+              │
+              └── Product
+                     │
+                     └── Category
+📅 36 DARS — TO‘LIQ JADVAL
+Hafta
+Dars
+Mavzu
+1
+1
+Backend + Node.js
+2
+Node.js Core Modules
+3
+Express.js
+2
+4
+Request / Response
+5
+Middleware
+6
+Backend Architecture
+3
+7
+Postman + REST API
+8
+Validation + Error Handling
+9
+Node/Express Mini Project
+4
+10
+MongoDB
+11
+Mongoose
+12
+MongoDB CRUD
+5
+13
+MongoDB Queries
+14
+MongoDB Relations
+15
+Authentication + bcrypt
+6
+16
+JWT
+17
+Authorization + Roles
+18
+MongoDB Backend Project
+7
+19
+📝 MongoDB Backend Exam
+20
+Advanced Authentication
+21
+File Upload
+8
+22
+Security
+23
+PostgreSQL Fundamentals
+24
+PostgreSQL Queries
+9
+25
+PostgreSQL Relations
+26
+Sequelize
+27
+Sequelize CRUD
+10
+28
+Sequelize Relations
+29
+Advanced Sequelize
+30
+Transactions + DB Design
+11
+31
+Professional Architecture
+32
+PostgreSQL Project 1
+33
+PostgreSQL Project 2
+12
+34
+Backend Finalization
+35
+📝 PostgreSQL Backend Exam
+36
+🚀 Full Stack Project
+🔥 Kursning mantiqiy progressioni
+Men aynan mana shu progressionni saqlagan bo‘lardim:
+                    BACKEND
+                       │
+                       ▼
+                   Node.js
+                       │
+                       ▼
+                  Express.js
+                       │
+                       ▼
+                    REST API
+                       │
+                       ▼
+                    MongoDB
+                       │
+                       ▼
+                   Mongoose
+                       │
+                       ▼
+                  CRUD + API
+                       │
+                       ▼
+              Auth + bcrypt + JWT
+                       │
+                       ▼
+             📝 BACKEND EXAM #1
+                       │
+                       ▼
+              Advanced Backend
+                       │
+                       ▼
+                 PostgreSQL
+                       │
+                       ▼
+                    SQL
+                       │
+                       ▼
+                   Sequelize
+                       │
+                       ▼
+              Relations + CRUD
+                       │
+                       ▼
+             Transactions + Security
+                       │
+                       ▼
+             📝 BACKEND EXAM #2
+                       │
+                       ▼
+              React / Vue Frontend
+                       │
+                       ▼
+               REST API Integration
+                       │
+                       ▼
+             🚀 FULL STACK PROJECT
+Eng yaxshi tomoni
+Bu reja bilan ikkita muhim checkpoint paydo bo‘ladi:
+19-dars:
+"Men MongoDB + Node.js + Express bilan mustaqil backend qila olamanmi?"
+35-dars:
+"Men PostgreSQL + Sequelize bilan productionga yaqin backend qila olamanmi?"
+36-dars:
+"Men frontend va backendni birlashtirib, to‘liq web application qila olamanmi?"
+Shu tizimda kurs oxirida talabada HTML/CSS → JS → React/Vue → Node/Express → MongoDB → PostgreSQL → Full Stack zanjiri to‘liq yopiladi.
